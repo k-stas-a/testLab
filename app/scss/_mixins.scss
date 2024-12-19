@@ -1,0 +1,64 @@
+@mixin headLine {
+font-family: 'Graphik LCG';
+font-weight: 600;
+text-decoration-skip-ink: none;
+}
+@mixin h1 {
+    font-size: 52px;
+    line-height: 64px;
+}
+@mixin h2 {
+    font-size: 40px;
+    line-height: 56px;
+}
+@mixin h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+@mixin h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+@mixin h5 {
+    font-size: 20px;
+    line-height: 24px;
+}
+@mixin h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+@mixin body {
+font-family:'Graphik LCG';
+font-weight: 400;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+@mixin body_18 {
+    font-size: 18px;
+    line-height: 32px;
+}
+@mixin body_16 {
+    font-size: 16px;
+    line-height: 28px;
+}
+@mixin body_14 {
+    font-size: 14px;
+    line-height: 24px;
+}
+@mixin body_12 {
+    font-size: 12px;
+    line-height: 16px;
+}
+@mixin indent {
+    max-width: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (min-width: 768px) and (max-width: 1299px) {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    @media (max-width:767px){
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
